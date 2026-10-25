@@ -1,0 +1,27 @@
+[package]
+name = "planner-coordinator"
+version.workspace = true
+edition.workspace = true
+[dependencies]
+planner-contracts.workspace = true
+planner-framework.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+chrono.workspace = true
+chrono-tz.workspace = true
+uuid.workspace = true
+planner-tasks = { path = "../tasks" }
+planner-calendar = { path = "../calendar" }
+planner-context = { path = "../context" }
+planner-execution = { path = "../execution" }
+planner-life = { path = "../life" }
+planner-impact = { path = "../impact" }
+planner-scheduler = { path = "../scheduler" }
+planner-plans = { path = "../plans" }
+planner-ai = { path = "../ai" }
+planner-ics = { path = "../ics" }
+planner-reminders = { path = "../reminders" }
+planner-training = { path = "../training" }
+planner-canvas = { path = "../canvas" }
+[dev-dependencies]
+tempfile = "3"

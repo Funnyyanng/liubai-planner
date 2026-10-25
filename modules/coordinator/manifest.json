@@ -1,0 +1,34 @@
+{
+  "id": "coordinator",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [
+    "tasks",
+    "calendar",
+    "context",
+    "execution",
+    "life",
+    "impact",
+    "scheduler",
+    "plans"
+  ],
+  "optionalCapabilities": [
+    "ai",
+    "ics",
+    "reminders",
+    "training",
+    "canvas"
+  ],
+  "commands": [
+    "replan",
+    "feedback",
+    "apply_draft"
+  ],
+  "queries": [
+    "state"
+  ],
+  "events": [],
+  "pages": [],
+  "critical": true,
+  "migrationVersion": 1
+}

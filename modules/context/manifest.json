@@ -1,0 +1,19 @@
+{
+  "id": "context",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "set_attention"
+  ],
+  "queries": [
+    "windows"
+  ],
+  "events": [
+    "context.changed"
+  ],
+  "pages": [],
+  "critical": true,
+  "migrationVersion": 1
+}

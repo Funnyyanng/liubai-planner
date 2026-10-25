@@ -1,0 +1,22 @@
+{
+  "id": "life",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "save_rules"
+  ],
+  "queries": [
+    "rules",
+    "constraints"
+  ],
+  "events": [
+    "rules.changed"
+  ],
+  "pages": [
+    "settings"
+  ],
+  "critical": true,
+  "migrationVersion": 1
+}

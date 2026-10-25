@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/*", "modules/*", "src-tauri"]
+resolver = "2"
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+[workspace.dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+chrono-tz = "0.10"
+uuid = { version = "1", features = ["v4"] }
+planner-contracts = { path = "crates/contracts" }
+planner-framework = { path = "crates/framework" }

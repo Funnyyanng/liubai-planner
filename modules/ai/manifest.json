@@ -1,0 +1,20 @@
+{
+  "id": "ai",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "configure",
+    "draft"
+  ],
+  "queries": [
+    "config"
+  ],
+  "events": [],
+  "pages": [
+    "settings.ai"
+  ],
+  "critical": false,
+  "migrationVersion": 1
+}

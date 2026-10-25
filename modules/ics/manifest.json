@@ -1,0 +1,16 @@
+{
+  "id": "ics",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [],
+  "queries": [
+    "parse",
+    "export"
+  ],
+  "events": [],
+  "pages": [],
+  "critical": false,
+  "migrationVersion": 1
+}

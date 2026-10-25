@@ -1,0 +1,22 @@
+{
+  "id": "training",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "configure"
+  ],
+  "queries": [
+    "demands",
+    "constraints"
+  ],
+  "events": [
+    "training.changed"
+  ],
+  "pages": [
+    "training"
+  ],
+  "critical": false,
+  "migrationVersion": 1
+}

@@ -1,0 +1,17 @@
+{
+  "id": "reminders",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "mark_read"
+  ],
+  "queries": [
+    "notices"
+  ],
+  "events": [],
+  "pages": [],
+  "critical": false,
+  "migrationVersion": 1
+}

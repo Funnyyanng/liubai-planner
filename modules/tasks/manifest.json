@@ -1,0 +1,23 @@
+{
+  "id": "tasks",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "save_task",
+    "apply_feedback"
+  ],
+  "queries": [
+    "tasks",
+    "dependencies"
+  ],
+  "events": [
+    "task.changed"
+  ],
+  "pages": [
+    "projects"
+  ],
+  "critical": true,
+  "migrationVersion": 1
+}

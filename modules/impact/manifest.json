@@ -1,0 +1,15 @@
+{
+  "id": "impact",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [],
+  "queries": [
+    "analyze_impact"
+  ],
+  "events": [],
+  "pages": [],
+  "critical": true,
+  "migrationVersion": 1
+}

@@ -1,0 +1,16 @@
+{
+  "id": "scheduler",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [],
+  "queries": [
+    "propose_plan",
+    "validate_plan"
+  ],
+  "events": [],
+  "pages": [],
+  "critical": true,
+  "migrationVersion": 1
+}

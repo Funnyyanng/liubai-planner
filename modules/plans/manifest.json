@@ -1,0 +1,23 @@
+{
+  "id": "plans",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "apply_plan",
+    "restore_plan"
+  ],
+  "queries": [
+    "plan",
+    "history"
+  ],
+  "events": [
+    "plan.changed"
+  ],
+  "pages": [
+    "adjustments"
+  ],
+  "critical": true,
+  "migrationVersion": 1
+}

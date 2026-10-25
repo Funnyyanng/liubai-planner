@@ -1,0 +1,21 @@
+{
+  "id": "calendar",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "save_event"
+  ],
+  "queries": [
+    "events"
+  ],
+  "events": [
+    "calendar.changed"
+  ],
+  "pages": [
+    "calendar"
+  ],
+  "critical": true,
+  "migrationVersion": 1
+}

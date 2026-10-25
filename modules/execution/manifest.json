@@ -1,0 +1,23 @@
+{
+  "id": "execution",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "start",
+    "pause",
+    "record"
+  ],
+  "queries": [
+    "executions"
+  ],
+  "events": [
+    "execution.recorded"
+  ],
+  "pages": [
+    "now"
+  ],
+  "critical": true,
+  "migrationVersion": 1
+}

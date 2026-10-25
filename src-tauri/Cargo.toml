@@ -1,0 +1,21 @@
+[package]
+name = "student-planner"
+version.workspace = true
+edition.workspace = true
+[lib]
+name = "student_planner"
+crate-type = ["staticlib", "cdylib", "rlib"]
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+planner-framework.workspace = true
+planner-contracts.workspace = true
+serde_json.workspace = true
+[dependencies]
+planner-canvas = { path = "../modules/canvas" }
+tauri = { version = "2", features = [] }
+planner-contracts.workspace = true
+planner-framework.workspace = true
+planner-coordinator = { path = "../modules/coordinator" }
+serde_json.workspace = true
+serde.workspace = true
+rfd = "0.15"

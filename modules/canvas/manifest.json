@@ -1,0 +1,23 @@
+{
+  "id": "canvas",
+  "version": "0.1.0",
+  "contractVersion": 1,
+  "dependencies": [],
+  "optionalCapabilities": [],
+  "commands": [
+    "cache",
+    "import"
+  ],
+  "queries": [
+    "courses",
+    "preview"
+  ],
+  "events": [
+    "canvas.synced"
+  ],
+  "pages": [
+    "canvas"
+  ],
+  "critical": false,
+  "migrationVersion": 1
+}

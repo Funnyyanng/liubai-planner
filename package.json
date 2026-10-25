@@ -1,0 +1,34 @@
+{
+  "name": "student-planner",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run check:boundaries && tsc -b && vite build",
+    "check:boundaries": "node scripts/check-boundaries.mjs",
+    "test": "vitest run",
+    "desktop:dev": "node scripts/desktop.mjs dev",
+    "desktop:build": "node scripts/desktop.mjs build",
+    "check:rust": "node scripts/rust.mjs test --workspace",
+    "check": "npm run build && npm test && npm run check:rust",
+    "format": "prettier --write src scripts docs *.json *.md vite.config.ts",
+    "format:check": "prettier --check src scripts docs *.json *.md vite.config.ts"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.8.0",
+    "lucide-react": "^0.468.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.8.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "prettier": "^3.9.6",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}
