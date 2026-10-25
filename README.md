@@ -19,6 +19,8 @@
 
 本仓库的公开提交记录从这次整理开始，不补造历史 Git 提交。存档中的测试和操作记录单独保留，不能等同于本次重新验证。
 
+2026 年 10 月 25 日的[首次 GitHub 自动检查](https://github.com/Funnyyanng/liubai-planner/actions/runs/40174353884)在安装依赖（`npm ci`）时报告 `Invalid Version`，后续构建和测试尚未执行；该结果作为待复盘的调试卡点保留。本次没有据此改动原型源码。
+
 ## 查看作品
 
 - [原型与设计说明 PDF](docs/portfolio/留白_原型与设计说明.pdf)
